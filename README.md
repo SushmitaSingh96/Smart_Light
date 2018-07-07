@@ -4,3 +4,4 @@ NodeMCU 1.0(ESP-12E Module) consists of only one ADC(analog to digital converter
 We upload a client program to the NodeMCU using USB which sends data (ie LDR value) to our server using the ESP8266 station. We used an Apache HTTP server. 
 Send the data to the database using PHP.
 Run the PHP file in  the location /var/www/html and create your databse in MariaDB or MySql. 
+Resistors of 330 Ohm is connected in series with the Red LED, 10k Ohm resistor acts as a voltage divider and is connected to the LDR as shown in image. 
